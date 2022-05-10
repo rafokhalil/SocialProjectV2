@@ -1,0 +1,87 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewBag.Title = "Open Email";
+}
+
+
+
+<div class="main-content right-chat-active">
+
+    <div class="middle-sidebar-bottom">
+        <div class="middle-sidebar-left pe-0 ps-lg-3 ms-0 me-0" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="chat-wrapper p-0 w-100 position-relative scroll-bar bg-white theme-dark-bg">
+                        <div class="chat-wrapper pt-0 w-100 position-relative scroll-bar">
+                            <div class="chat-body p-lg-4 p-3 mt-lg-3 mt-0">
+                                <div class="card dark-bg-transparent border-0 w-100 p-0 mb-3 shadow-none">
+                                    <div class="card-body p-0">
+                                        <h6 class="fw-600 text-grey-500 font-xsssss">Today, 16th September 2020, 11:45 </h6>
+                                        <h2 class="font-sm text-grey-900 fw-600">Meeting World</h2>
+                                    </div>
+                                </div>
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default p-0 bg-transparent border-bottom rounded-0">
+                                        <div class="panel-heading  pb-2" role="tab" id="headingOne">
+                                            <a class="panel-title fw-400 mb-0 accordion-toggle icon-none d-flex justify-content-between pe-0 collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                <figure class="avatar me-2 mb-0 w35 mt-1 pt-1"><img src="~/images/user-8.png" alt="image" class="float-right shadow-sm rounded-circle w-100"></figure>
+                                                <span class="font-xssss text-grey-700 pt-2 mt-1 ps-2 fw-700 mb-0 me-auto text-dark">Aenni Mirenda </span>
+                                                <span class="font-xssss text-grey-500 pt-2 mt-1 ps-2 fw-600 mb-0 ms-auto">14.09.2020 10:23</span>
+
+                                            </a>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse in collapse" role="tabpanel" aria-labelledby="headingOne" style="">
+                                            <p class="text-grey-600 mb-4 font-xsss lh-28 fw-500 mt-3">Hi Aenni, <br> <br> All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate. <br><br> Regards,<br>Jessica </p>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default p-0 mb-0 bg-transparent border-bottom rounded-0">
+                                        <div class="panel-heading pb-2" role="tab" id="headingTwo">
+                                            <a class="panel-title fw-400 mb-0 accordion-toggle icon-none collapsed d-flex justify-content-between pe-0" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <figure class="avatar me-2 mb-0 w35 mt-1 pt-1"><img src="~/images/icon2.png" alt="image" class="float-left shadow-none rounded-circle w-75 mt-1"></figure>
+                                                <span class="font-xssss text-grey-700 pt-2 mt-1 ps-2 fw-700 mb-0 me-auto text-dark">You</span>
+                                                <span class="font-xssss text-grey-500 pt-2 mt-1 ps-2 fw-600 mb-0 ms-auto">14.09.2020 11:45</span>
+
+                                            </a>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                            <div class="panel-body pt-4">
+                                                <p class="text-grey-600 mb-4 font-xsss lh-28 fw-500 mt-3">Hi Aenni, <br> <br> All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate. <br><br> Regards,<br>Jessica </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default p-0 bg-transparent rounded-0">
+                                        <div class="panel-heading pt-1 pb-2" role="tab" id="headingThree">
+                                            <a class="panel-title fw-400 mb-0 accordion-toggle icon-none d-flex justify-content-between pe-0" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                <figure class="avatar me-2 mb-0 w35 mt-1 pt-1"><img src="~/images/user-8.png" alt="image" class="float-right shadow-sm rounded-circle w-100"></figure>
+                                                <span class="font-xssss text-grey-700 pt-2 mt-1 ps-2 fw-700 mb-0 me-auto text-dark">Aenni Mirenda </span>
+                                                <span class="font-xssss text-grey-500 pt-2 mt-1 ps-2 fw-600 mb-0 ms-auto">14.09.2020 12:23</span>
+
+                                            </a>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingThree">
+                                            <p class="text-grey-600 mb-4 font-xsss lh-28 fw-500 mt-3">Hi Aenni, <br> <br> All individual Framer subscriptions have been grandfathered into a Pro plan at your existing rate. If you were on a Small Team plan, then all 5 seats have been converted over to Pro seats at your existing rate. <br><br> Regards,<br>Jessica </p>
+                                            <textarea class="form-control mb-5 p-3 h100 bg-greylight lh-16" rows="5" placeholder="Write your message..."></textarea>
+                                            <p class="mb-5"></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="chat-bottom dark-bg p-3 mb-3 border-top border-bottom bor-0 theme-dark-bg" style="width: 98%;">
+                            <form class="chat-form d-block overflow-hidden">
+                                <button class="bg-dark border-0 btn-round-md float-left d-lg-block d-none"><i class="ti-microphone text-white lh-4 font-xs"></i></button>
+                                <button class="bg-dark border-0 btn-round-md ms-1 float-left"><i class="ti-clip text-white lh-4 font-xs"></i></button>
+                                <button class="bg-dark border-0 btn-round-md ms-1 float-left"><i class="ti-image text-white lh-4 font-xs"></i></button>
+                                <button class="bg-current border-0 p-0 float-right w200 text-white fw-600 font-xssss text-uppercase">Send</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+

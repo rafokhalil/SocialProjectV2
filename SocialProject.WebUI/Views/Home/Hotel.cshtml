@@ -1,0 +1,201 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewBag.Title = "Near Hotel";
+}
+
+
+<div class="main-content right-chat-active">
+
+    <div class="middle-sidebar-bottom">
+        <div class="middle-sidebar-left pe-0 ms-0 me-0" style="max-width: 100%;">
+            <div class="row">
+                <div class="col-xl-12  chat-left scroll-bar">
+                    <div class="card shadow-xss w-100 d-block d-flex border-0 p-4 mb-3">
+                        <div class="card-body d-flex align-items-center p-0">
+                            <h2 class="fw-700 mb-0 mt-0 font-md text-grey-900">Hotel</h2>
+                            <div class="search-form-2 ms-auto">
+                                <i class="ti-search font-xss"></i>
+                                <input type="text" class="form-control text-grey-500 mb-0 bg-greylight theme-dark-bg border-0" placeholder="Search here.">
+                            </div>
+                            <a href="#" class="btn-round-md ms-2 bg-greylight theme-dark-bg rounded-3"><i class="feather-filter font-xss text-grey-500"></i></a>
+                        </div>
+                    </div>
+                    <div class="row ps-2 pe-2">
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3 pe-2 ps-2">
+                            <div class="card w-100 p-0 hover-card shadow-xss border-0 rounded-3 overflow-hidden me-1">
+                                <span class="font-xsssss fw-700 ps-3 pe-3 lh-32 text-uppercase rounded-3 ls-2 bg-primary-gradiant d-inline-block text-white position-absolute mt-3 ms-3 z-index-1">Featured</span>
+                                <div class="card-image w-100 mb-3">
+                                    <a asp-controller="Home" asp-action="HotelDetails" class="position-relative d-block"><img src="~/images/h-1.jpg" alt="image" class="w-100"></a>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <i class="feather-bookmark font-md text-grey-500 position-absolute right-0 me-3"></i>
+                                    <h4 class="fw-700 font-xss mt-0 lh-28 mb-0"><a href="default-hotel-details.html" class="text-dark text-grey-900">Montana Hotel</a></h4>
+                                    <h6 class="font-xsssss text-grey-500 fw-600 mt-0 mb-2"> 323 Geldenfe Ave Park, Flodia City</h6>
+                                    <div class="star d-block w-100 text-left mt-0">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star-disable.png" alt="star" class="w15 me-1 float-left me-2">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-ruler-pencil text-grey-500 me-1"></i> 200 sq</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-rss-alt text-grey-500 me-1"></i> WiFi</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500"><i class="btn-round-sm bg-greylight ti-credit-card text-grey-500 me-1"></i> Card</h5>
+                                    <div class="clearfix"></div>
+                                    <span class="font-lg fw-700 mt-0 pe-3 ls-2 lh-32 d-inline-block text-success float-left"><span class="font-xsssss">$</span> 320 <span class="font-xsssss text-grey-500">/ mo</span> </span>
+                                    <a href="#" class="position-absolute bottom-15 mb-2 right-15"><i class="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3 pe-2 ps-2">
+                            <div class="card w-100 p-0 hover-card shadow-xss border-0 rounded-3 overflow-hidden me-1">
+                                <span class="font-xsssss fw-700 ps-3 pe-3 lh-32 text-uppercase rounded-3 ls-2 bg-primary-gradiant d-inline-block text-white position-absolute mt-3 ms-3 z-index-1">Featured</span>
+                                <div class="card-image w-100 mb-3">
+                                    <a asp-controller="Home" asp-action="HotelDetails" class="position-relative d-block"><img src="~/images/h-2.jpg" alt="image" class="w-100"></a>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <i class="feather-bookmark font-md text-grey-500 position-absolute right-0 me-3"></i>
+                                    <h4 class="fw-700 font-xss mt-0 lh-28 mb-0"><a href="default-hotel-details.html" class="text-dark text-grey-900">Himalayan Wind Horse</a></h4>
+                                    <h6 class="font-xsssss text-grey-500 fw-600 mt-0 mb-2"> 323 Geldenfe Ave Park, Flodia City</h6>
+                                    <div class="star d-block w-100 text-left mt-0">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star-disable.png" alt="star" class="w15 me-1 float-left me-2">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-ruler-pencil text-grey-500 me-1"></i> 200 sq</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-rss-alt text-grey-500 me-1"></i> WiFi</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500"><i class="btn-round-sm bg-greylight ti-credit-card text-grey-500 me-1"></i> Card</h5>
+                                    <div class="clearfix"></div>
+                                    <span class="font-lg fw-700 mt-0 pe-3 ls-2 lh-32 d-inline-block text-success float-left"><span class="font-xsssss">$</span> 450 <span class="font-xsssss text-grey-500">/ mo</span> </span>
+                                    <a href="#" class="position-absolute bottom-15 mb-2 right-15"><i class="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3 pe-2 ps-2">
+                            <div class="card w-100 p-0 hover-card shadow-xss border-0 rounded-3 overflow-hidden me-1">
+                                <span class="font-xsssss fw-700 ps-3 pe-3 lh-32 text-uppercase rounded-3 ls-2 bg-primary-gradiant d-inline-block text-white position-absolute mt-3 ms-3 z-index-1">Featured</span>
+                                <div class="card-image w-100 mb-3">
+                                    <a asp-controller="Home" asp-action="HotelDetails" class="position-relative d-block"><img src="~/images/h-3.jpg" alt="image" class="w-100"></a>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <i class="feather-bookmark font-md text-grey-500 position-absolute right-0 me-3"></i>
+                                    <h4 class="fw-700 font-xss mt-0 lh-28 mb-0"><a href="default-hotel-details.html" class="text-dark text-grey-900">Hotel Sonar Bangla</a></h4>
+                                    <h6 class="font-xsssss text-grey-500 fw-600 mt-0 mb-2"> 323 Geldenfe Ave Park, Flodia City</h6>
+                                    <div class="star d-block w-100 text-left mt-0">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star-disable.png" alt="star" class="w15 me-1 float-left me-2">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-ruler-pencil text-grey-500 me-1"></i> 200 sq</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-rss-alt text-grey-500 me-1"></i> WiFi</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500"><i class="btn-round-sm bg-greylight ti-credit-card text-grey-500 me-1"></i> Card</h5>
+                                    <div class="clearfix"></div>
+                                    <span class="font-lg fw-700 mt-0 pe-3 ls-2 lh-32 d-inline-block text-success float-left"><span class="font-xsssss">$</span> 50 <span class="font-xsssss text-grey-500">/ mo</span> </span>
+                                    <a href="#" class="position-absolute bottom-15 mb-2 right-15"><i class="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3 pe-2 ps-2">
+                            <div class="card w-100 p-0 hover-card shadow-xss border-0 rounded-3 overflow-hidden me-1">
+                                <span class="font-xsssss fw-700 ps-3 pe-3 lh-32 text-uppercase rounded-3 ls-2 bg-primary-gradiant d-inline-block text-white position-absolute mt-3 ms-3 z-index-1">Featured</span>
+                                <div class="card-image w-100 mb-3">
+                                    <a asp-controller="Home" asp-action="HotelDetails" class="position-relative d-block"><img src="~/images/h-4.jpg" alt="image" class="w-100"></a>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <i class="feather-bookmark font-md text-grey-500 position-absolute right-0 me-3"></i>
+                                    <h4 class="fw-700 font-xss mt-0 lh-28 mb-0"><a href="default-hotel-details.html" class="text-dark text-grey-900">House Pool Party</a></h4>
+                                    <h6 class="font-xsssss text-grey-500 fw-600 mt-0 mb-2"> 323 Geldenfe Ave Park, Flodia City</h6>
+                                    <div class="star d-block w-100 text-left mt-0">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star-disable.png" alt="star" class="w15 me-1 float-left me-2">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-ruler-pencil text-grey-500 me-1"></i> 200 sq</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-rss-alt text-grey-500 me-1"></i> WiFi</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500"><i class="btn-round-sm bg-greylight ti-credit-card text-grey-500 me-1"></i> Card</h5>
+                                    <div class="clearfix"></div>
+                                    <span class="font-lg fw-700 mt-0 pe-3 ls-2 lh-32 d-inline-block text-success float-left"><span class="font-xsssss">$</span> 60 <span class="font-xsssss text-grey-500">/ mo</span> </span>
+                                    <a href="#" class="position-absolute bottom-15 mb-2 right-15"><i class="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3 pe-2 ps-2">
+                            <div class="card w-100 p-0 hover-card shadow-xss border-0 rounded-3 overflow-hidden me-1">
+                                <span class="font-xsssss fw-700 ps-3 pe-3 lh-32 text-uppercase rounded-3 ls-2 bg-primary-gradiant d-inline-block text-white position-absolute mt-3 ms-3 z-index-1">Featured</span>
+                                <div class="card-image w-100 mb-3">
+                                    <a asp-controller="Home" asp-action="HotelDetails" class="position-relative d-block"><img src="~/images/h-5.jpg" alt="image" class="w-100"></a>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <i class="feather-bookmark font-md text-grey-500 position-absolute right-0 me-3"></i>
+                                    <h4 class="fw-700 font-xss mt-0 lh-28 mb-0"><a href="default-hotel-details.html" class="text-dark text-grey-900">Silver Star Boutique</a></h4>
+                                    <h6 class="font-xsssss text-grey-500 fw-600 mt-0 mb-2"> 323 Geldenfe Ave Park, Flodia City</h6>
+                                    <div class="star d-block w-100 text-left mt-0">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star-disable.png" alt="star" class="w15 me-1 float-left me-2">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-ruler-pencil text-grey-500 me-1"></i> 200 sq</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-rss-alt text-grey-500 me-1"></i> WiFi</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500"><i class="btn-round-sm bg-greylight ti-credit-card text-grey-500 me-1"></i> Card</h5>
+                                    <div class="clearfix"></div>
+                                    <span class="font-lg fw-700 mt-0 pe-3 ls-2 lh-32 d-inline-block text-success float-left"><span class="font-xsssss">$</span> 760 <span class="font-xsssss text-grey-500">/ mo</span> </span>
+                                    <a href="#" class="position-absolute bottom-15 mb-2 right-15"><i class="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 mb-3 pe-2 ps-2">
+                            <div class="card w-100 p-0 hover-card shadow-xss border-0 rounded-3 overflow-hidden me-1">
+                                <span class="font-xsssss fw-700 ps-3 pe-3 lh-32 text-uppercase rounded-3 ls-2 bg-primary-gradiant d-inline-block text-white position-absolute mt-3 ms-3 z-index-1">Featured</span>
+                                <div class="card-image w-100 mb-3">
+                                    <a asp-controller="Home" asp-action="HotelDetails" class="position-relative d-block"><img src="~/images/h-6.jpg" alt="image" class="w-100"></a>
+                                </div>
+                                <div class="card-body pt-0">
+                                    <i class="feather-bookmark font-md text-grey-500 position-absolute right-0 me-3"></i>
+                                    <h4 class="fw-700 font-xss mt-0 lh-28 mb-0"><a href="default-hotel-details.html" class="text-dark text-grey-900">Crown Retreat Hotel</a></h4>
+                                    <h6 class="font-xsssss text-grey-500 fw-600 mt-0 mb-2"> 323 Geldenfe Ave Park, Flodia City</h6>
+                                    <div class="star d-block w-100 text-left mt-0">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star.png" alt="star" class="w15 me-1 float-left">
+                                        <img src="~/images/star-disable.png" alt="star" class="w15 me-1 float-left me-2">
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-ruler-pencil text-grey-500 me-1"></i> 200 sq</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500 me-2"><i class="btn-round-sm bg-greylight ti-rss-alt text-grey-500 me-1"></i> WiFi</h5>
+                                    <h5 class="mt-3 d-inline-block font-xssss fw-600 text-grey-500"><i class="btn-round-sm bg-greylight ti-credit-card text-grey-500 me-1"></i> Card</h5>
+                                    <div class="clearfix"></div>
+                                    <span class="font-lg fw-700 mt-0 pe-3 ls-2 lh-32 d-inline-block text-success float-left"><span class="font-xsssss">$</span> 840 <span class="font-xsssss text-grey-500">/ mo</span> </span>
+                                    <a href="#" class="position-absolute bottom-15 mb-2 right-15"><i class="btn-round-sm bg-primary-gradiant text-white font-sm feather-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+</div>
+
